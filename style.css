@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+html {
+    margin: 0;
+    background-color: #333333;
+    background-image: url('tardis-console.jpg');
+    padding: 2rem;
+    font-family: 'Varela Round', 'Helvetica', 'Arial', sans-serif; 
+    color: #ffffff;
+}
 body {
-  margin: 0;
-  padding: 0;
-  background-color:red;
-  font-family: sans-serif; 
+    margin: 0 auto;
+    border: 5px solid #666666;
+    max-width: 800px;
+    background-color: #000000A0;
+    padding: 2rem;
 }
-
 h1{
-  margin: 0;
-  padding: 0 0 20px;
-  text-align: center;
-  font-size: 40px;
-  color: aliceblue;
+    margin: 0.25rem 0 2rem 0;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-
 ul{
   margin: 0;
   padding: 0 0 20px;
